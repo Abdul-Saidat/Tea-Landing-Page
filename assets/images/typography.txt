@@ -1,0 +1,2 @@
+font-used : poppins and Otomanopee One
+color: #6D4900, #3D1900
