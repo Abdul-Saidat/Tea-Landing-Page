@@ -5,41 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea Landing-Page</title>
     <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Otomanopee One"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section>
       <header>
         <div class="header">
-          <img src="./assets/images/logo.png" alt="" />
-          <nav>
+          <img class="desktop-logo" src="./assets/images/logo.png" alt="" />
+          <nav class="header-navs">
             <ul>
-              <li><a href="#">Home</a></li>
+              <li class="home"><a href="#">Home</a></li>
               <li><a href="#">About Us</a></li>
               <li><a href="#">Testimonials</a></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
           </nav>
+          <!-- Mobile navs -->
+          <div class="mobile">
+            <div class="mobile-section">
+              <img src="./assets/images/logo.png" alt="" />
+              <input
+                type="checkbox"
+                name="navs-checkbox"
+                id="toggle-navs"
+                class="toggle-navs"
+              />
+              <label for="toggle-navs" class="dropdown">&#9776;</label>
+              <div class="overlay-menu">
+                <nav class="nav-links">
+                  <label for="toggle-navs" class="close-btn">&times;</label>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <img src="./assets/images/tea.png" alt="" />
+          </div>
           <div class="signup">
-              <button class="signup-btn">Sign Up</button>
+            <button class="signup-btn">Sign Up</button>
           </div>
         </div>
       </header>
     </section>
     <main>
-        <section class="main-content">
-            <div class="description">
-                <h1>Tea Time Hub</h1>
-                <p>
-                    From the rolling hills of Darjeeling to the lush gardens of
-                    Japan, our teas encapsulate the essence of their origins,
-                    offering a moment of tranquility in every sip.
-                </p>
-                <button>Explore</button>
-            </div>
-            <div class="tea-img">
-                <img src="./assets/images/tea.png" alt="">
-            </div>
-        </section>
+      <section class="main-content">
+        <div class="description">
+          <h1>Tea Time Hub</h1>
+          <p>
+            From the rolling hills of Darjeeling to the lush gardens of Japan,
+            our teas encapsulate the essence of their origins, offering a moment
+            of tranquility in every sip.
+          </p>
+          <button class="exlore">Explore</button>
+        </div>
+        <div class="desktop-tea-img">
+          <img src="./assets/images/tea.png" alt="" />
+        </div>
+      </section>
     </main>
   </body>
 </html>
