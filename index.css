@@ -62,8 +62,6 @@ body {
 
   .overlay-menu ul li:hover {
     cursor: pointer;
-    transform: scale(1.02);
-    transition: all 0.5s ease-in-out;
   }
 
   .toggle-navs:checked ~ .overlay-menu {
@@ -86,8 +84,6 @@ body {
   }
   ul li:hover {
     cursor: pointer;
-    transform: scale(1.02);
-    transition: all 0.5s ease-in-out;
   }
   a {
     text-decoration: none;
@@ -99,8 +95,6 @@ body {
   }
   .signup-btn:hover {
     cursor: pointer;
-    transform: scale(1.02);
-    transition: all 0.5s ease-in-out;
   }
   .signup-btn {
     font-size: 18px;
@@ -110,7 +104,6 @@ body {
     padding-inline: 15px;
     padding-block: 10px;
     color: white;
-    background: transparent;
     background-color: #6d4900;
     margin-top: 40px;
   }
@@ -150,8 +143,6 @@ body {
 
   .description button:hover {
     cursor: pointer;
-    transform: scale(1.02);
-    transition: all 0.5s ease-in-out;
   }
 
   .mobile-tea-img {
